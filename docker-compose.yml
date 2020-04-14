@@ -33,7 +33,7 @@ services:
       WORDPRESS_DB_NAME: wordpress
     volumes:
       - wp:/var/www/html
-      - ./conf/php:/usr/local/etc/php
+      # - ./conf/php:/usr/local/etc/php
       - ${WP_WORKING_THEME_DIR}:/var/www/html${WP_THEME_DIR}
     networks:
       - app-network
