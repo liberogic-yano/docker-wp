@@ -34,3 +34,14 @@ $ docker-compose up -d
 ```
 
 You can open `http://localhost/` in a web browser.
+
+
+## Stop
+```
+$ docker-compose down
+```
+
+## Stop/Remove Volumes
+```
+$ docker-compose down --volumes
+```
